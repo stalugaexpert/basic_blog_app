@@ -8,7 +8,7 @@ import BlogList from '../../components/BlogList'
 const query = groq`
   *[_type=='post'] {
     ...,
-    author->
+    author->,
     categories[]->
   } | order(_createdAt desc)
 `

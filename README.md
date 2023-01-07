@@ -1,6 +1,6 @@
 # Next.js 13 + Sanity CMS Blog
 
-Next.js 13 Blog App with build in Sanity CMS and live preview mode in /studio route. App enables authenticated user to create, edit and delete posts, authors, posts categories and also enables live preview of the created content. User can also enable preview mode and check the draft version of the blog.
+Next.js 13 Blog App with build in Sanity CMS and live preview mode in /studio route. App enables authenticated user to create, edit and delete posts, authors, posts categories and also enables live preview of the created content. User can also enable preview mode and check the draft version of the blog. Blog main page and single blog posts pages are generated using SSG functionality and Next.js revalidate feature that lets us provide always fresh and up-to-date content and increase speed of the page & reduce unnecessary api calls.
 
 Tech stack: Typescript, Next, Sanity, Tailwind, GROQ
 

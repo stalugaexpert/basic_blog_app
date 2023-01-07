@@ -1,12 +1,12 @@
-# Next.js + Tailwind CSS Example
+# Next.js 13 + Sanity Blog example
 
-This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v3.2)](https://tailwindcss.com/blog/tailwindcss-v3-2) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
+Next.js 13 Blog App with build in Sanity CMS and live preview mode in /studio route. App enables authenticated user to create, edit and delete posts, authors, posts categories and also enables live preview of the created content. User can also enable preview mode and check the draft version of the blog.
 
-## Deploy your own
+Tech stack: Typescript, Next, Sanity, Tailwind, GROQ
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example) or preview live with [StackBlitz](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/with-tailwindcss)
+## Check the deployment under this link:
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-tailwindcss&project-name=with-tailwindcss&repository-name=with-tailwindcss)
+https://sanity-v3-next-blog.vercel.app/
 
 ## How to use
 

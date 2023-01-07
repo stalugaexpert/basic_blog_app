@@ -1,6 +1,7 @@
 import Image from 'next/image'
+import { LogoProps } from 'sanity'
 
-function Logo(props: any) {
+function Logo(props: LogoProps) {
   const { renderDefault, title } = props
   return (
     <div className="flex items-center space-x-2">
